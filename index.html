@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sectionhome" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png"
+                    class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+            <div class="container "> 
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card-1 mb-3 p-3" onclick="display('section_taj_mahal')">
+                            <img src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                class="card-img" />
+                            <h1 class="card-heading">
+                                The Taj Mahal
+                            </h1>
+                            <p class="card-para">
+                                The Taj Mahal is considered one of the most beautiful buildings in the world. It is
+                                located in the city of Agra in
+                                northern India. A ruler named Shah Jahan had the Taj Mahal built as a monument and tomb
+                                for his beloved wife, Mumtaz
+                                Mahal. Shah Jahan was the Muslim ruler of the Mughal Empire in India from 1628 to 1658.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card-1 mb-3 p-3" onclick="display('section_gija')">
+                            <img src="https://images.pexels.com/photos/20840216/pexels-photo-20840216/free-photo-of-people-in-front-of-a-pyramid-in-giza.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                class="card-img" />
+                            <h1 class="card-heading">
+                                The Great Pyramid of Giza
+                            </h1>
+                            <p class="card-para">
+                                The Great Pyramid of Giza is a huge pyramid built by the Ancient Egyptians. It stand
+                                18.4 km from Cairo, Egypt. It is
+                                the oldest of the Seven Wonders of the Ancient World, and the only one to remain mostly
+                                intact. When it was built it was
+                                146.5 metres (481 feet) tall.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card-1 mb-3 p-3" onclick="display('section_roman')">
+                            <img src="https://images.pexels.com/photos/29319359/pexels-photo-29319359/free-photo-of-colosseum-at-sunset-with-greenery-in-rome.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                class="card-img" />
+                            <h1 class="card-heading">
+                                The Roman Colosseum
+                            </h1>
+                            <p class="card-para">
+                                The Colosseum is an amphitheatre built in Rome under the Flavian emperors of the Roman
+                                Empire. It is also called the
+                                Flavian Amphitheatre. It is an elliptical structure made of stone, concrete, and tuff,
+                                and it stands four stories tall
+                                at its highest point.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card-1 mb-3 p-3" onclick="display('section_christ')">
+                            <img src="https://images.pexels.com/photos/11170876/pexels-photo-11170876.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                class="card-img" />
+                            <h1 class="card-heading">
+                                Christ the Redeemer
+                            </h1>
+                            <p class="card-para">
+                                Christ the Redeemer is a famous statue of Jesus in Rio de Janeiro, Brazil. The statue
+                                has been called “the largest Art
+                                Deco statue in the world.” It is nearly 30 metres tall, and its arms stretch 28 metres
+                                wide. The Christ, the Redeemer
+                                statue in Brazil is notable.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card-1 mb-3 p-3" onclick="display('section_china')">
+                            <img src="https://images.pexels.com/photos/4445241/pexels-photo-4445241.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                class="card-img" />
+                            <h1 class="card-heading">
+                                The Great Wall of China
+                            </h1>
+                            <p class="card-para">
+                                The Great Wall of China is an ancient wall in China. It was finished in 1878 and it was
+                                meant to protect the north of
+                                the empire of China from enemy attacks. It is the longest structure humans have ever
+                                built. It is about 21,196
+                                kilometers long, 9.1 metres (30 feet) wide and 20 meters high.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card-1 mb-3 p-3" onclick="display('section_petra')">
+                            <img src="https://images.pexels.com/photos/23124659/pexels-photo-23124659/free-photo-of-low-angle-shot-of-the-al-khazneh-in-petra-jordan.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                class="card-img" />
+                            <h1 class="card-heading">
+                                Petra
+                            </h1>
+                            <p class="card-para">
+                                Petra is half-built, half-carved into the rock, and is surrounded by mountains riddled
+                                with passages and gorges. It is
+                                one of the world's most famous archaeological sites, where ancient Eastern traditions
+                                blend with Hellenistic
+                                architecture.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card-1 mb-3 p-3" onclick="display('section_machu')">
+                            <img src="https://images.pexels.com/photos/2539417/pexels-photo-2539417.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                class="card-img" />
+                            <h1 class="card-heading">
+                                Machu Picchu
+                            </h1>
+                            <p class="card-para">
+                                Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of
+                                southern Peru on a mountain ridge at
+                                2,430 meters (7,970 ft). Often referred to as the "Lost City of the Incas", it is the
+                                most familiar icon of the Inca
+                                Empire.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <div id="section_taj_mahal" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home<span class="sr-only"></span></a>
+                    
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="ddd m-3">
+            <h1 class="item-heading">The Taj Mahal</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/19149641/pexels-photo-19149641/free-photo-of-building-of-taj-mahal-in-india.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/4002705/pexels-photo-4002705.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="details-section">
+                <p>
+                    The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ -/ TAHJ mə-HAHL, TAHZH -⁠, Hindi: [taːdʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is
+                    an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned
+                    in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it
+                    also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which
+                    includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+                    
+                    Construction of the mausoleum was completed in 1648, but work continued on other phases of the project for another five
+                    years. The first ceremony held at the mausoleum was an observance by Shah Jahan, on 6 February 1643, of the 12th
+                    anniversary of the death of Mumtaz Mahal. The Taj Mahal complex is believed to have been completed in its entirety in
+                    1653 at a cost estimated at the time to be around ₹5 million, which in 2023 would be approximately ₹35 billion (US$77.8
+                    million).
+                    
+                    The building complex incorporates the design traditions of Indo-Islamic and Mughal architecture. It employs symmetrical
+                    constructions with the usage of various shapes and symbols. While the mausoleum is constructed of white marble inlaid
+                    with semi-precious stones, red sandstone was used for other buildings in the complex similar to the Mughal era buildings
+                    of the time. The construction project employed more than 20,000 workers and artisans under the guidance of a board of
+                    architects led by Ustad Ahmad Lahori, the emperor's court architect.
+                    
+                    The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Islamic art in India and
+                    one of the universally admired masterpieces of the world's heritage". It is regarded as one of the best examples of
+                    Mughal architecture and a symbol of Indian history. The Taj Mahal is a major tourist attraction and attracts more than
+                    five million visitors a year. In 2007, it was declared a winner of the New 7 Wonders of the World initiative.
+
+                </p>
+            </div>
+            <h1 class="videos-des">Related Videos .....</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/44rTTLjZZz4?si=g_flB9Z8PikZc3-Z"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7JIyUQsYL8E?si=m0HUE86Nz2h0GxBI"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fEjgXLZULkM?si=0ubOhUKnt5RbXXjn"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="back-button" onclick="display('sectionhome')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-circle"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="section_gija" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="ddd m-3">
+            <h1 class="item-heading">The Great Pyramid of Giza</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/9540748/pexels-photo-9540748.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/5740631/pexels-photo-5740631.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/15127306/pexels-photo-15127306/free-photo-of-pyramids-and-sphinx-statue-in-desert.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="details-section">
+                <p>
+                    The Great Pyramid of Giza[a] is the largest Egyptian pyramid. It served as the tomb of pharaoh Khufu, who ruled during
+                    the Fourth Dynasty of the Old Kingdom. Built c. 2600 BC,[3] over a period of about 26 years,[4] the pyramid is the
+                    oldest of the Seven Wonders of the Ancient World, and the only wonder that has remained largely intact. It is the most
+                    famous monument of the Giza pyramid complex, which is part of the UNESCO World Heritage Site "Memphis and its
+                    Necropolis".[5] It is situated at the northeastern end of the line of the three main pyramids at Giza.
+                    
+                    Initially standing at 146.6 metres (481 feet), the Great Pyramid was the world's tallest human-made structure for more
+                    than 3,800 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height
+                    to the current 138.5 metres (454.4 ft); what is seen today is the underlying core structure. The base was measured to be
+                    about 230.3 metres (755.6 ft) square, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet), which
+                    includes an internal hillock.[6] The dimensions of the pyramid were 280 royal cubits (146.7 m; 481.4 ft) high, a base
+                    length of 440 cubits (230.6 m; 756.4 ft), with a seked of ⁠5+
+                    1
+                    /
+                    2
+                    ⁠ palms (a slope of 51°50'40").
+                    
+                    The Great Pyramid was built by quarrying an estimated 2.3 million large blocks, weighing 6 million tonnes in total. The
+                    majority of the stones are not uniform in size or shape, and are only roughly dressed.[7] The outside layers were bound
+                    together by mortar. Primarily local limestone from the Giza Plateau was used for its construction. Other blocks were
+                    imported by boat on the Nile: white limestone from Tura for the casing, and blocks of granite from Aswan, weighing up to
+                    80 tonnes, for the "King's Chamber" structure.[8]
+                    
+                    There are three known chambers inside of the Great Pyramid. The lowest was cut into the bedrock, upon which the pyramid
+                    was built, but remained unfinished. The so-called[9] Queen's Chamber and King's Chamber, which contain a granite
+                    sarcophagus, are above ground, within the pyramid structure. Hemiunu, Khufu's vizier, is believed by some to be the
+                    architect of the Great Pyramid.[10] Many varying scientific and alternative hypotheses attempt to explain the exact
+                    construction techniques, but, as is the case for other such structures, there is no definite consensus.
+                    
+                </p>
+            </div>
+            <h1 class="videos-des">Related Videos .....</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/CEl6P5wo6ro?si=RSxYZlUppSufVTPY" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/KuZUKhENCUY?si=-Po7TJdnhxq6j-LG" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/j81WfTrjbWY?si=5UdyqdmpCKYO1l0w" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="back-button" onclick="display('sectionhome')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="section_roman" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="ddd m-3">
+            <h1 class="item-heading">The Roman Colosseum</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/1797158/pexels-photo-1797158.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/532263/pexels-photo-532263.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/2064827/pexels-photo-2064827.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="details-section">
+                <p>
+                The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an elliptical amphitheatre in the centre
+                of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is
+                still the largest standing amphitheatre in the world, despite its age. Construction began under the Emperor Vespasian
+                (r. 69–79 AD) in 72[1] and was completed in AD 80 under his successor and heir, Titus (r. 79–81).[2] Further
+                modifications were made during the reign of Domitian (r. 81–96).[3] The three emperors who were patrons of the work are
+                known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium;
+                Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with
+                their family name (Flavius).
+                
+                The Colosseum is built of travertine limestone, tuff (volcanic rock), and brick-faced concrete. It could hold an
+                estimated 50,000 to 80,000 spectators at various points in its history,[4][5] having an average audience of some
+                65,000;[6] it was used for gladiatorial contests and public spectacles including animal hunts, executions, re-enactments
+                of famous battles, dramas based on Roman mythology, and briefly mock sea battles. The building ceased to be used for
+                entertainment in the early medieval era. It was later reused for such purposes as housing, workshops, quarters for a
+                religious order, a fortress, a quarry, and a Christian shrine.
+                
+                Although substantially ruined by earthquakes and stone robbers taking spolia, the Colosseum is still a renowned symbol
+                of Imperial Rome and was listed as one of the New 7 Wonders of the World.[7] It is one of Rome's most popular tourist
+                attractions and has links to the Catholic Church, as each Good Friday the Pope leads a torchlit "Way of the Cross"
+                procession that starts in the area around the Colosseum.[8] The Colosseum is depicted on the Italian version of the 5
+                euro cent coin.
+                </p>
+            </div>
+            <h1 class="videos-des">Related Videos .....</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/XGq_oGuEhnA?si=Y6oC06XNUdv-nMcE" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/xaSbYIeqGWg?si=ktO512Csi3RDwkwd" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/FQnAKqJc7L0?si=z55G4RCIsrckUJI-" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="back-button" onclick="display('sectionhome')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="section_christ" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="ddd m-3">
+            <h1 class="item-heading">Christ the Redeemer</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/29366714/pexels-photo-29366714/free-photo-of-iconic-christ-the-redeemer-view-in-rio.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/29346110/pexels-photo-29346110/free-photo-of-christ-the-redeemer-statue-in-rio-de-janeiro.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/17782075/pexels-photo-17782075/free-photo-of-christ-the-redeemer-statue-in-rio-de-janeiro.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="details-section">
+                <p>
+                    Christ the Redeemer (Portuguese: Cristo Redentor, standard Brazilian Portuguese: [ˈkɾistu ʁedẽˈtoʁ]) is an Art Deco
+                    statue of Jesus in Rio de Janeiro, Brazil, created by French-Polish sculptor Paul Landowski and built by Brazilian
+                    engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot. Romanian sculptor Gheorghe Leonida
+                    sculpted the face. Constructed between 1922 and 1931, the statue is 30 metres (98 ft) high, excluding its 8-metre (26
+                    ft) pedestal. The arms stretch 28 metres (92 ft) wide.[1][2] It is made of reinforced concrete and soapstone.[3][4][5]
+                    Christ the Redeemer differs considerably from its original design, as the initial plan was a large Christ with a globe
+                    in one hand and a cross in the other. Although the project organizers originally accepted the design, it later changed
+                    to the statue of today, with the arms spread out wide.
+                    
+                    The statue weighs 635 metric tons (625 long, 700 short tons), and is located at the peak of the 700-metre (2,300 ft)
+                    Corcovado mountain in the Tijuca National Park overlooking the city of Rio de Janeiro. This statue is the largest Art
+                    Deco–style sculpture in the world.[6] A symbol of Christianity around the world, the statue has also become a cultural
+                    icon of both Rio de Janeiro and Brazil and was voted one of the New 7 Wonders of the World.[7]
+    
+                </p>
+            </div>
+            <h1 class="videos-des">Related Videos .....</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/kMd26yKnzWQ?si=j9hbRP3kmwFX9oKC" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/k_615AauSds?si=lKzJQE6137Wmho5V" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/OO4cuHmkm3k?si=YQxYQdCz7ss98j_T" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="back-button" onclick="display('sectionhome')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="section_china" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="ddd m-3">
+            <h1 class="item-heading">The Great Wall of China</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/18709771/pexels-photo-18709771/free-photo-of-great-wall-of-china.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/6046302/pexels-photo-6046302.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/1653826/pexels-photo-1653826.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="details-section">
+                <p>
+                    The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally "ten
+                    thousand li long wall") is a series of fortifications that were built across the historical northern borders of ancient
+                    Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls
+                    were built from as early as the 7th century BC,[4] with selective stretches later joined by Qin Shi Huang (220–206 BC),
+                    the first emperor of China. Little of the Qin wall remains.[5] Later on, many successive dynasties built and maintained
+                    multiple stretches of border walls. The best-known sections of the wall were built by the Ming dynasty (1368–1644).
+                    
+                    Apart from defense, other purposes of the Great Wall have included border controls, allowing the imposition of duties on
+                    goods transported along the Silk Road, regulation or encouragement of trade and the control of immigration and
+                    emigration.[6] Furthermore, the defensive characteristics of the Great Wall were enhanced by the construction of
+                    watchtowers, troop barracks, garrison stations, signaling capabilities through the means of smoke or fire, and the fact
+                    that the path of the Great Wall also served as a transportation corridor.
+                    
+                    The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Liaodong in the
+                    east to Lop Lake in the west, from the present-day Sino–Russian border in the north to Tao River (Taohe) in the south;
+                    along an arc that roughly delineates the edge of the Mongolian steppe; spanning 21,196.18 km (13,170.70 mi) in
+                    total.[7][3] Today, the defensive system of the Great Wall is generally recognized as one of the most impressive
+                    architectural feats in history.[8]
+
+    
+                </p>
+            </div>
+            <h1 class="videos-des">Related Videos .....</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/84RmMb1hY60?si=Cnqn44R3xgVJh2GH" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/LTDwaYlk2FM?si=Gxf0aNAs_O4o5CrE" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/PCZqJGmDiAY?si=n8FTtACP6VCeT63E" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="back-button" onclick="display('sectionhome')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="section_petra" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="ddd m-3">
+            <h1 class="item-heading">Petra</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/1631665/pexels-photo-1631665.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/3846629/pexels-photo-3846629.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/18717331/pexels-photo-18717331/free-photo-of-petra-in-jordan.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="details-section">
+                <p>
+                    Petra (Arabic: ٱلْبَتْراء, romanized: Al-Batrāʾ; ‹See Tfd›Greek: Πέτρα, "Rock"), originally known to its inhabitants as
+                    Raqmu (Nabataean: 𐢛𐢚𐢒‎ or 𐢛𐢚𐢓𐢈‎, *Raqēmō),[3][4] is a historic and archaeological city in southern Jordan. Famous
+                    for its rock-cut architecture and water conduit systems, Petra is also called the "Rose City" because of the colour of
+                    the sandstone from which it is carved.[5] The city is one of the New 7 Wonders of the World and a UNESCO World Heritage
+                    Site.[6]
+                    
+                    The area around Petra has been inhabited from as early as 7000 BC,[7] and was settled by the Nabataeans, a nomadic Arab
+                    people, in the 4th century BC. Petra would later become the capital city of the Nabataean Kingdom in the second century
+                    BC.[7][8] The Nabataeans invested in Petra's proximity to the incense trade routes by establishing it as a major
+                    regional trading hub, which gained them considerable revenue.[7][9] Unlike their enemies, the Nabataeans were accustomed
+                    to living in the barren deserts and thus were able to defend their kingdom. They were particularly skillful in
+                    agriculture, stone carving, and rainwater harvesting.
+                    
+                    Petra flourished in the 1st century AD, when its Al-Khazneh structure, possibly the mausoleum of Nabataean king Aretas
+                    IV, was constructed, and its population peaked at an estimated 20,000 inhabitants.[10] Nabataea fell to the Romans in
+                    106 AD, who annexed and renamed it as Arabia Petraea.[11] Petra's importance declined as sea trade routes emerged, and
+                    after an earthquake in 363 destroyed many structures. In the Byzantine era, several Christian churches were built, but
+                    the city continued to decline and, by the early Islamic era, it was abandoned except for a handful of nomads. It
+                    remained unknown to the western world until 1812, when Swiss traveller Johann Ludwig Burckhardt rediscovered it.[12]
+                    
+                    UNESCO has described Petra as "one of the most precious cultural properties of man's cultural heritage".[13] Petra is a
+                    symbol of Jordan, as well as Jordan's most-visited tourist attraction. Visitor numbers reach close to a million tourists
+                    every year.[14]
+    
+                </p>
+            </div>
+            <h1 class="videos-des">Related Videos .....</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/n5nxeQrE4XY?si=Ge23bLSJd71fgjrB" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/SZ5JjLdzQ1o?si=FNcZSw6WgjehNF_6" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/xSiv4TkfSOE?si=ZXcSJhwY03tZK6F9" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="back-button" onclick="display('sectionhome')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id="section_machu" class="heading-Section">
+        <h1 class="main-heading">
+            Seven Wonders of the Wolrd
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot_2024-11-13_at_6.43.49_PM-removebg-preview.png" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="ddd m-3">
+            <h1 class="item-heading">Machu Picchu</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/2929906/pexels-photo-2929906.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/2539417/pexels-photo-2539417.jpeg?auto=compress&cs=tinysrgb&w=800"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="details-section">
+                <p>
+                    Machu Picchu[a] is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge at
+                    2,430 meters (7,970 ft).[9] Often referred to as the "Lost City of the Incas",[10] it is the most familiar icon of the
+                    Inca Empire. It is located in the Machupicchu District within the Urubamba Province[11] above the Sacred Valley, which
+                    is 80 kilometers (50 mi) northwest of the city of Cusco. The Urubamba River flows past it, cutting through the
+                    Cordillera and creating a canyon with a subtropical mountain climate.[12]
+                    
+                    The Inca civilization had no written language and following the first encounter by the Spanish soldier Baltasar Ocampo,
+                    no Europeans are recorded to have visited the site from the late 16th century until the 19th century. As far as
+                    historical knowledge extends, there are no existing written records detailing the site during its period of active use.
+                    The leading theory is that Machu Picchu was a private city for Incan royalty. The names of the buildings, their supposed
+                    uses, and their inhabitants, are the product of modern archaeologists based on physical evidence, including tombs at the
+                    site. Machu Picchu was built in the classical Inca style, with polished dry-stone walls. Its three primary structures
+                    are the Temple of the Sun, the Temple of the Three Windows, and the Intihuatana. From 1929 to 1971, Machu Picchu
+                    underwent extensive restoration and conservation work, including structural stabilization and artifact excavation,
+                    driven by government initiatives and research expeditions.[13] Most recent archaeologists believe that Machu Picchu was
+                    constructed as an estate for the Inca emperor Pachacuti (1438–1472). The Inca built the estate around 1450 but abandoned
+                    it a century later, at the time of the Spanish conquest. According to the new AMS radiocarbon dating, it was occupied
+                    from c. 1420–1532.[14] Historical research published in 2022 claims that the site was probably called Huayna Picchu by
+                    the Inca people themselves, as it exists on the smaller peak of the same name.[15][16]
+                    
+                    Machu Picchu was declared a Peruvian Historic Sanctuary in 1982 and a UNESCO World Heritage Site in 1983.[9] In 2007,
+                    Machu Picchu was voted one of the New Seven Wonders of the World in a worldwide internet poll.[17]
+    
+                </p>
+            </div>
+            <h1 class="videos-des">Related Videos .....</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/cnMa-Sm9H4k?si=K4eVfJKq1IDXMBHk" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/Zk9J5xnTVMA?si=82L-IN2qdYZv89Dq" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 videoss">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/lNIEZ61PyG0?si=t8Kw8dPS9SdiTofl" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="back-button" onclick="display('sectionhome')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript"
+        src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
